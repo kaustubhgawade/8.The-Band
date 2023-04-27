@@ -1,0 +1,243 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  line-height: 1;
+}
+.space{
+  margin: 50px 0;
+}
+/* navbar CSS */
+.invert-font-color{
+  color: white;
+}
+nav {
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  height: 50px;
+  width: 100%;
+  padding: 16px;
+  background-color: black;
+  z-index: 1;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 16.5px 24px;
+}
+.links a:hover {
+  color: black;
+  background-color: white;
+}
+.dropdown {
+  display: inline-block;
+}
+.droplist {
+  display: none;
+  position: absolute;
+  top: 50px;
+  left: 440px;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.droplist a {
+  display: block;
+  color: black;
+  background-color: #f1f1f1;
+  padding: 12px 16px;
+}
+.droplist a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .droplist {
+  display: block;
+}
+.search {
+  background-color: rgb(255, 13, 0);
+  border-radius: 4px;
+  padding: 10px 24px;
+  font-weight: 600;
+}
+.search:hover {
+  background-color: rgb(222, 222, 222);
+  color: rgb(255, 13, 0);
+}
+.hamburger{
+  color: white;
+  display: none;
+}
+.mobile-css{
+  display: none;
+}
+/* #look-out{
+  for search bar
+} */
+
+/* background CSS */
+.slides {
+  width: 100%;
+  border: none;
+}
+.slides > h1,
+.slides > p {
+  position: absolute;
+  background-color: transparent;
+  color: white;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, 0);
+  padding: 12px 24px;
+}
+.cities {
+  margin: 25px 0;
+}
+/* band and artist */
+#band{
+  /* margin: 100px 0; */
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.band-content {
+  display: block;
+  margin: 0 auto;
+  width: 60%;
+}
+.inner-content {
+  text-align: center;
+  margin: 20px 0;
+}
+.artist-div{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;  
+}
+/* tour dates */
+#tours{
+  background-color: black;
+  color: white;
+}
+#tours-inner{
+  display: block;
+  margin: 0 auto;
+  width: 60%;
+  padding: 100px 0;  
+}
+.months{
+  background-color: #f1f1f1;
+  color: black;
+  width: 100%;
+  margin: 40px 0;
+}
+.months>p{
+  padding: 15px 24px;
+  border-bottom: 1px solid grey;
+}
+.months span{
+  background-color: red;
+  color: white;
+  padding: 2px 5px;
+}
+#no-3{
+  float: right;
+  background-color: black;
+  border-radius: 20px;
+}
+#tickets-by-city{
+  display: flex;
+  justify-content: space-between;
+}
+.city{
+  width: 30%;
+  background-color: white;
+  color: black;
+  padding-bottom: 15px;
+}
+.city>img{
+  width: 100%;
+}
+.cityname{
+  font-weight: 900;
+  padding: 10px 20px;
+}
+.date{
+  color: grey;
+  padding: 5px 20px;
+}
+.info{
+  padding: 5px 20px;
+}
+.city>button{
+  background-color: black;
+  color: white;
+  margin: 5px 20px;
+  padding: 10px;
+}
+/* contact */
+#contact{
+  border: none;
+  padding-top: 100px;
+}
+#inner-contact{
+  display: block;
+  margin: 0 auto; 
+  width: 60%;
+  padding-bottom: 100px ;
+}
+.address{
+  float: left; 
+  width: 50%;
+  padding: 30px;
+}
+.form{
+  display: inline-block;
+  width: 50%;
+}
+form{
+  margin: 20px;
+}
+.form-css{
+  padding: 5px;
+  margin-bottom: 10px;
+}
+#name{
+  width: 49%;
+}
+#email{
+  float: right;
+  width: 49%;
+}
+#msg{
+  width: 100%;
+  resize: none;
+}
+#btn{
+  float: right;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  padding: 8px 15px;
+}
+/* footer */
+footer{
+  text-align: center;
+  background-color: #ddd;
+  height: 150px;
+  padding: 20px;
+}
+.social-media-links{
+  margin: 20px 0;
+}
+.s-m-links{
+  margin: 0 5px;
+  font-size: 26px;
+  cursor: pointer;
+}
+.copyright>p{
+  margin: 5px 0;
+}
