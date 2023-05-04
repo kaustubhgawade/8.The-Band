@@ -230,6 +230,10 @@ footer{
   height: 150px;
   padding: 20px;
 }
+footer a{
+  text-decoration: none;
+  color: black;
+}
 .social-media-links{
   margin: 20px 0;
 }
